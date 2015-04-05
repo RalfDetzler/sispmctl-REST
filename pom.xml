@@ -82,9 +82,9 @@
 	</build>
 
 	<scm>
-		<url>https://github.com/RalfDetzler/sispmctl-REST.git</url>
-		<connection>scm:git:git@github.com:kevinsawicki/sispmctl-REST.git</connection>
-		<developerConnection>scm:git:git@github.com:kevinsawicki/sispmctl-REST.git</developerConnection>
+		<url>git@github.com:RalfDetzler/sispmctl-REST.git</url>
+		<connection>git@github.com:RalfDetzler/sispmctl-REST.git</connection>
+		<developerConnection>git@github.com:RalfDetzler/sispmctl-REST.git</developerConnection>
 	</scm>
 
 
