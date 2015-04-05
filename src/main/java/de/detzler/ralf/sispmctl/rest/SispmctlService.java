@@ -42,7 +42,6 @@ public class SispmctlService {
 	 *            int the number of the outlet, e.g. 1 - 4
 	 * @return String "off" if the outlet is switched off, "on" if the outlet is
 	 *         switched on, "ERROR: 'error message' in the case of errors.
-	 * @throws SispmctlException
 	 */
 	@GET
 	@Path("/status/{id}")
