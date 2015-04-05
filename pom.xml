@@ -82,9 +82,9 @@
 	</build>
 
 	<scm>
-		<url>git@github.com:RalfDetzler/sispmctl-REST.git</url>
-		<connection>git@github.com:RalfDetzler/sispmctl-REST.git</connection>
-		<developerConnection>git@github.com:RalfDetzler/sispmctl-REST.git</developerConnection>
+		<url>scm:git:git@github.com:RalfDetzler/sispmctl-REST.git</url>
+		<connection>scm:git:git@github.com:RalfDetzler/sispmctl-REST.git</connection>
+		<developerConnection>scm:git:git@github.com:RalfDetzler/sispmctl-REST.git</developerConnection>
 	</scm>
 
 
@@ -93,4 +93,7 @@
 		<system>GitHub Issues</system>
 	</issueManagement>
 
+	<url>https://github.com/RalfDetzler/sispmctl-REST</url>
+	<name>sispmctl-REST</name>
+	<description>Provides REST services for the sispmctl command line tool.</description>
 </project>
