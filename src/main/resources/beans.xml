@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="shell" class="de.detzler.ralf.sispmctl.controller.ShellSimulator" />
+
+	<bean id="device" class="de.detzler.ralf.sispmctl.model.SispmctlDevice">
+		<property name="outlets">
+			<list value-type="de.detzler.ralf.sispmctl.model.Outlet">
+				<ref bean="nullOutlet" />
+				<ref bean="outlet1" />
+				<ref bean="outlet2" />
+				<ref bean="outlet3" />
+				<ref bean="outlet4" />
+			</list>
+		</property>
+		<property name="shell" ref="shell" />
+	</bean>
+
+	<bean id="nullOutlet" class="de.detzler.ralf.sispmctl.model.Outlet">
+		<constructor-arg value="0" />
+		<property name="shell" ref="shell" />
+	</bean>
+
+	<bean id="outlet1" class="de.detzler.ralf.sispmctl.model.Outlet">
+		<constructor-arg value="1" />
+		<property name="shell" ref="shell" />
+	</bean>
+
+	<bean id="outlet2" class="de.detzler.ralf.sispmctl.model.Outlet">
+		<constructor-arg value="2" />
+		<property name="shell" ref="shell" />
+	</bean>
+	<bean id="outlet3" class="de.detzler.ralf.sispmctl.model.Outlet">
+		<constructor-arg value="3" />
+		<property name="shell" ref="shell" />
+	</bean>
+	<bean id="outlet4" class="de.detzler.ralf.sispmctl.model.Outlet">
+		<constructor-arg value="4" />
+		<property name="shell" ref="shell" />
+	</bean>
+
+</beans>

@@ -1,2 +1,4 @@
-# Aquariumssteuerung
-mit Gembird USB Steckdosenleiste.
+# sispmctl-REST
+Provides a REST service interface for sispmctl.
+
+**UNDER CONSTRUCTION**
