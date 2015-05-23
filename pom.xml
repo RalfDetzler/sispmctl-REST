@@ -169,12 +169,12 @@
     <repository>
       <id>central</id>
       <name>libs-release</name>
-      <url>http://localhost:8081/libs-release</url>
+      <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>libs-snapshot</name>
-      <url>http://localhost:8081/libs-snapshot</url>
+      <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
 
