@@ -169,7 +169,7 @@
   <repository>
         <id>d1396091dd31</id>
         <name>d1396091dd31-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <url>http://devpriv:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
