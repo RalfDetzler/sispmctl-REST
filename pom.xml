@@ -166,10 +166,10 @@
 	</scm>
 
  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>libs-release</name>
-      <url>http://localhost:8081/artifactory/libs-release-local</url>
+  <repository>
+        <id>d1396091dd31</id>
+        <name>d1396091dd31-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
