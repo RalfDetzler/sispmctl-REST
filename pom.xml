@@ -165,7 +165,18 @@
 		<developerConnection>scm:git:git@github.com:RalfDetzler/sispmctl-REST.git</developerConnection>
 	</scm>
 
-
+ <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>libs-release</name>
+      <url>http://localhost:8081/libs-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>libs-snapshot</name>
+      <url>http://localhost:8081/libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 	<issueManagement>
 		<url>https://github.com/RalfDetzler/sispmctl-REST/issues</url>
