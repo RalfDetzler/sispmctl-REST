@@ -166,6 +166,12 @@
 	</scm>
 
 	<distributionManagement>
+	<repository>
+	<id>artifactory</id>
+	<name>artifactory-release</name>
+	<url>http://localhost:8081/artifactory/libs-release-local</url>
+	</repository>
+	
 		<snapshotRepository>
 			<id>InternalSnapshots</id>
 			<name>Internal Snapshots</name>
