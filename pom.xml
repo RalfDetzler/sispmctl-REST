@@ -165,18 +165,7 @@
 		<developerConnection>scm:git:git@github.com:RalfDetzler/sispmctl-REST.git</developerConnection>
 	</scm>
 
-<distributionManagement>
-  <repository>
-    <id>internal</id>
-    <name>internal</name>
-    <url>http://localhost:8081/artifactory/internal</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshot</id>
-    <name>snapshot</name>
-    <url>http://localhost:8081/artifactory/snapshot</url>
-  </snapshotRepository>
-</distributionManagement>
+
 
 	<issueManagement>
 		<url>https://github.com/RalfDetzler/sispmctl-REST/issues</url>
